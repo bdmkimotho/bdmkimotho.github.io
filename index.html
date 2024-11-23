@@ -1,9 +1,51 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Litech Group - Electrical & Plumbing Solutions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-  <h1>One step at a time</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+  <header>
+    <h1>Litech Group</h1>
+    <h2>Electrical & Plumbing Solutions</h2>
+  </header>
 
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Products</a>
+        <ul>
+          <li><a href="#">Electrical</a></li>
+          <li><a href="#">Plumbing</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Welcome to Litech Group!</h2>
+      <p>We are your one-stop shop for all your electrical and plumbing needs. We offer a wide variety of high-quality products and services to keep your home and business running smoothly.</p>
+    </section>
+
+    <section class="services">
+      <h3>Our Services</h3>
+      <ul>
+        <li>Electrical Installation & Repair</li>
+        <li>Plumbing Installation & Repair</li>
+        <li>Maintenance & Safety Inspections</li>
+        <li>Custom Design & Consultation</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <?= date('Y') ?> Litech Group. All Rights Reserved.</p>
+  </footer>
+</body>
 </html>
